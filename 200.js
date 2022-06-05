@@ -1,15 +1,15 @@
-let myNestedArray = [
-    // Only change code below this line
-    [
-      ['deep', 'unshift', false, 1, 2, 3, 'complex', 'nested'],
-      [
-        ['deeper', 'loop', 'shift', 6, 7, 1000, 'method'],
-        ['concat', false, true, 'spread', 'array'],
-        [
-          ['deepest', 'mutate', 1327.98, 'splice', 'slice', 'push'],
-          ['iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth']
-        ]
-      ]
-    ]
-    // Only change code above this line
-  ];
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28
+};
+
+// Only change code below this line
+foods.bananas = 13;
+foods["grapes"] = 35;
+const sb = 'strawberries';
+foods[sb] = 27;
+      
+// Only change code above this line
+
+console.log(foods);
